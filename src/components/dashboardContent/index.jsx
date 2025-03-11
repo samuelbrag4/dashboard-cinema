@@ -36,7 +36,7 @@ const DashboardContent = () => {
         <div className={styles.card}>
           <h3>Ocupação Média</h3>
           <div className={styles.cardValue}>78%</div>
-          <div className={styles.cardChange + " " + negative}>
+          <div className={styles.cardChange + " " + styles.negative}>
             -3% em relação à semana anterior
           </div>
         </div>
