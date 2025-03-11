@@ -1,9 +1,13 @@
+import Header from "@/components/header"
 import styles from "./page.module.css"
+import Sidebar from "@/components/sidebar"
 
 export default function Home() {
   return (
     <div>
-      <h1 className={styles.title}>Hello World</h1>
+      <Header />
+
+      <Sidebar />
     </div>
   )
 }
